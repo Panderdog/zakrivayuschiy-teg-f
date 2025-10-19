@@ -138,38 +138,66 @@
   font-family: var(--font-main), fantasy;
   font-size: 18px;
   font-variation-settings: "wght" 410;
-  margin-block: 21px;
-  padding-inline: 25px;
+ margin-block: 22px;
+    padding-inline: 25px;
+    line-height: 21px;
 }
 
-.card-1sprint-1part .card-image {
+.card__image_filter-mix {
   z-index: -1;
   filter: sepia(0.5) hue-rotate(-10deg) brightness(1.1);
 }
 
-.card-1sprint-2part .card-image {
+.card__image_filter-contrast {
   filter: contrast(1);
 }
 
-.card-2sprint-1part .card-image {
+.card__image_filter-contrast09 {
   filter: contrast(0.9);
 }
 
-.card-2sprint-2part .card-image {
+.card__image_filter-grayscale {
   filter: grayscale(0.4);
 }
 
-.card-3sprint-1part .card-image {
+.card__image_filter-brightness09 {
   filter: brightness(0.9);
 }
 
-.card-3sprint-2part .card-image {
+.card__image_filter-saturate {
   filter: saturate(0.6);
 }
 
-.card-im-here .card-image {
+.card__image_filter-brightness15 {
   filter: brightness(1.5);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card-like-div {
   grid-row: 4;
@@ -385,10 +413,11 @@
   font-size: 14px;
   max-inline-size: 234px;
   line-height: 1.5em;
+  text-transform: uppercase;
 }
 
 .dialog-close-button {
-  inline-size: 293px;
+      inline-size: 263px;
   block-size: 38px;
 }
 
@@ -401,7 +430,7 @@
   }
 
   .card-title {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .image-lable {
