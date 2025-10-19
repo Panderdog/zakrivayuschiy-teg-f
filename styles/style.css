@@ -138,9 +138,9 @@
   font-family: var(--font-main), fantasy;
   font-size: 18px;
   font-variation-settings: "wght" 410;
- margin-block: 22px;
-    padding-inline: 25px;
-    line-height: 21px;
+  margin-block: 22px;
+  padding-inline: 25px;
+  line-height: 21px;
 }
 
 .card__image_filter-mix {
@@ -171,33 +171,6 @@
 .card__image_filter-brightness15 {
   filter: brightness(1.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .card-like-div {
   grid-row: 4;
@@ -417,7 +390,7 @@
 }
 
 .dialog-close-button {
-      inline-size: 263px;
+  inline-size: 294px;
   block-size: 38px;
 }
 
@@ -437,6 +410,11 @@
     font-size: 12px;
     top: 20px;
     right: 15px;
+  }
+
+  .dialog-close-button {
+    inline-size: 263px;
+    block-size: 38px;
   }
 }
 
