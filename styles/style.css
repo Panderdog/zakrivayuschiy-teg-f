@@ -39,7 +39,7 @@
 
 .container {
   width: 100%;
-  max-width: var(--container-width-desctop);
+  max-width: var(--container-width-desktop);
   margin: 0 auto;
 }
 
@@ -138,36 +138,36 @@
   font-family: var(--font-main), fantasy;
   font-size: 18px;
   font-variation-settings: "wght" 410;
-  margin-block: 20px;
+  margin-block: 21px;
   padding-inline: 25px;
 }
 
-.card:nth-child(2) .card-image {
+.card-1sprint-1part .card-image {
   z-index: -1;
   filter: sepia(0.5) hue-rotate(-10deg) brightness(1.1);
 }
 
-.card:nth-child(3) .card-image {
+.card-1sprint-2part .card-image {
   filter: contrast(1);
 }
 
-.card:nth-child(4) .card-image {
+.card-2sprint-1part .card-image {
   filter: contrast(0.9);
 }
 
-.card:nth-child(5) .card-image {
+.card-2sprint-2part .card-image {
   filter: grayscale(0.4);
 }
 
-.card:nth-child(6) .card-image {
+.card-3sprint-1part .card-image {
   filter: brightness(0.9);
 }
 
-.card:nth-child(7) .card-image {
+.card-3sprint-2part .card-image {
   filter: saturate(0.6);
 }
 
-.card:nth-child(8) .card-image {
+.card-im-here .card-image {
   filter: brightness(1.5);
 }
 
@@ -288,22 +288,22 @@
 
 .like-icon:hover .heart-main-body {
   fill: var(--animation-fill-color);
-  transition: fill 0.3s 0.05s;
+  transition: fill 0.3s linear.05s;
 }
 
 .like-icon:hover .heart-core {
   fill: var(--animation-fill-color);
-  transition: fill 0.3s;
+  transition: fill 0.3s linear;
 }
 
 .like-icon:active .heart-main-body {
   fill: var(--animation-main-color);
-  transition: fill 0.3s 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon:active .heart-core {
   fill: var(--animation-main-color);
-  transition: fill 0.3s;
+  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .heart {

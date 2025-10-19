@@ -20,7 +20,7 @@
     transparent 4px
   ),
   linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
-  --container-width-desctop: 700px;
+  --container-width-desktop: 700px;
   --container-width-mobile: 100%;
   --text-stroke-color: #FFFFFF;
   --text-color: #FFFFFF;
