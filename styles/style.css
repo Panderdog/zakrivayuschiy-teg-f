@@ -138,7 +138,7 @@
   font-family: var(--font-main), fantasy;
   font-size: 18px;
   font-variation-settings: "wght" 410;
-  margin-block: 22px;
+  margin-block: 24px;
   padding-inline: 25px;
   line-height: 21px;
 }
@@ -405,6 +405,13 @@
   .card-title {
     font-size: 18px;
   }
+  .card-text {
+    margin-block: 22px;
+  }
+
+  .card-image-div {
+    margin-block-end: 1px;
+  }
 
   .image-lable {
     font-size: 12px;
@@ -415,6 +422,10 @@
   .dialog-close-button {
     inline-size: 263px;
     block-size: 38px;
+  }
+
+  .save-dialog-div {
+    margin-inline-end: -31px;
   }
 }
 
